@@ -86,6 +86,7 @@ public abstract class SenderBenchmarks {
 
   @Setup(Level.Trial)
   public void setup() throws Throwable {
+    System.out.println();
     sender = createSender();
 
     // check sender works at all
